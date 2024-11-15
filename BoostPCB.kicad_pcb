@@ -74,9 +74,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerber/")
 		)
 	)
 	(net 0 "")
@@ -118,6 +118,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -130,6 +131,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -142,6 +144,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -263,7 +266,7 @@
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J3"
-			(at 1.25 3.55 360)
+			(at 1.25 3.55 0)
 			(layer "B.SilkS")
 			(uuid "6d24d76b-4483-4804-97cf-e0024e6e59be")
 			(effects
@@ -275,7 +278,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 1.25 -4.6 360)
+			(at 1.25 -4.6 0)
 			(layer "B.Fab")
 			(uuid "9ca2dd5c-9c99-45c5-95f3-816ee878c883")
 			(effects
@@ -295,6 +298,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -308,6 +312,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -321,6 +326,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -671,7 +677,7 @@
 			(uuid "7bd21569-9519-4efd-8c84-20bdd66ca3ab")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 -2.7 360)
+			(at 1.25 -2.7 0)
 			(layer "B.Fab")
 			(uuid "5ecab53c-726e-41ac-8c97-61c96efe9403")
 			(effects
@@ -756,6 +762,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -769,6 +776,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -782,6 +790,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
